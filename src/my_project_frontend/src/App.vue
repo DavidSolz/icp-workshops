@@ -19,7 +19,7 @@ async function handleSubmit(e) {
     <br />
     <br />
     <form action="#" @submit="handleSubmit">
-      <label for="name">Enter your name: &nbsp;</label>
+      <label for="name" class="border-2 b border-indigo-500 p-10">Enter your name: &nbsp;</label>
       <input id="name" alt="Name" type="text" />
       <button type="submit">Click Me!</button>
     </form>
